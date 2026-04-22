@@ -1,0 +1,99 @@
+.authPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 128px);
+  padding: 2rem;
+}
+
+.authCard {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  width: 100%;
+  max-width: 480px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.authCard h2 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--text-active);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.authCard p {
+  color: var(--text-secondary);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.inputGroup label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.inputGroup input, .inputGroup select {
+  background-color: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  color: var(--text-active);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.inputGroup input:focus, .inputGroup select:focus {
+  border-color: var(--brand-primary);
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.error {
+  background-color: rgba(239, 68, 68, 0.1);
+  border: 1px solid #ef4444;
+  color: #ef4444;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.footer a {
+  color: var(--brand-primary);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

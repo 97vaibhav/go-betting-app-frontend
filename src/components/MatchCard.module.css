@@ -1,0 +1,115 @@
+.card {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.card:hover {
+  border-color: var(--brand-primary);
+  transform: translateY(-2px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.competition {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.live {
+  color: #ef4444;
+  font-weight: 700;
+}
+
+.liveIndicator {
+  background-color: #ef4444;
+  color: white;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+}
+
+.score {
+  margin-left: 0.5rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 1px;
+}
+
+.teams {
+  margin-bottom: 1.25rem;
+}
+
+.team {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-active);
+  margin-bottom: 0.25rem;
+}
+
+.markets {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.marketTitle {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.selections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.selectionBtn {
+  background-color: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.selectionBtn:hover {
+  background-color: #383838;
+  border-color: var(--brand-primary);
+}
+
+.selectionName {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.odds {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--brand-primary);
+}

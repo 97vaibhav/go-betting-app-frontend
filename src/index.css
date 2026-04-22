@@ -1,0 +1,37 @@
+:root {
+  /* Bet365 Inspired Color Palette */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #242424;
+  --bg-tertiary: #2e2e2e;
+  
+  --brand-primary: #12b740; /* Vibrant Green */
+  --brand-hover: #0f9d37;
+  
+  --text-active: #ffffff;
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a0a0;
+  --text-muted: #666666;
+  
+  --border-color: #333333;
+  --accent-yellow: #ffdf1b;
+  
+  --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
